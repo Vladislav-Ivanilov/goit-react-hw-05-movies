@@ -1,5 +1,5 @@
 import { getDetails } from 'services/moviesAPI';
-import { NavLink, useLocation, useParams, Outlet } from 'react-router-dom';
+import { useLocation, useParams, Outlet } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { MovieCard } from 'components/MovieCard/MovieCard';
 import { Back, Container } from './MovieDetails.styled.jsx';

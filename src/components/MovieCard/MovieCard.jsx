@@ -1,4 +1,4 @@
-import { Container, Title } from './MovieCard.styled';
+import { Container } from './MovieCard.styled';
 
 export const MovieCard = ({ movie }) => {
   const { poster_path, title, release_date, vote_average, overview, genres } =
